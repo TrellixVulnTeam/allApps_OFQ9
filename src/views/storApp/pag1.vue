@@ -20,7 +20,7 @@ export default {
   computed: {
     items(){
       return this.$store.getters.items
-    },
+    }
   },
   methods: {
     add(){
